@@ -1,0 +1,60 @@
+# R session and project state
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# renv local state (keep renv.lock and renv/activate.R)
+renv/library/
+renv/staging/
+renv/local/
+
+# Study data and generated artifacts are not distributed
+/data/
+/outputs/
+/validation/
+
+# Temporary, backup, and local logs
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*~
+~$*
+*.local.log
+logs/local/
+
+# Restricted or clinical data and identifiers
+**/raw/
+**/individual/
+**/patient/
+**/clinical/
+**/restricted/
+*raw*.csv
+*individual*.csv
+*patient*.csv
+*clinical*.csv
+*restricted*.csv
+
+# Credentials, local configuration, and mounts
+.env
+.env.*
+*.pem
+*.key
+credentials*
+tokens*
+secrets*
+*.mount
+*.junction
+*.symlink
+*.lnk
+
+# Release-candidate exclusion of historical lockfiles and backups
+renv.lock.*
+*renv.lock.original*
+*.bak
+*.backup
+*_backup*
+*before*
+*_pre_restoration*
