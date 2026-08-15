@@ -47,4 +47,4 @@ Individual scripts can also be run in the same way, for example:
 Rscript R/01_table1.R
 ```
 
-Citation metadata are provided in `CITATION.cff`. The repository licence remains pending as described in `LICENSE_PENDING.md`.
+The R code in this repository is released under the MIT License.

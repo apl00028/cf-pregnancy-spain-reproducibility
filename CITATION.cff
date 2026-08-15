@@ -1,9 +1,0 @@
-cff-version: 1.2.0
-message: "If you use this public reproducibility package, please cite it using the metadata completed by the study team."
-title: "Public reproducibility package: cystic fibrosis and pregnancy"
-type: software
-version: "0.0.0-pending"
-# date-released: [YYYY-MM-DD]
-# repository-code: [GitHub repository URL]
-# doi: [Zenodo DOI]
-# authors: [Final author list]
